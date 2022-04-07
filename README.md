@@ -2,4 +2,4 @@
 ## Links Úteis
 [Basic Syntax MarkDown](https://www.markdownguide.org/basic-syntax/)
 
-Desafio de Projeto para aula de repositório.
+Desafio de Projeto para desafio de projeto.
