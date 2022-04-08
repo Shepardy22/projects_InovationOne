@@ -1,0 +1,8 @@
+inv72@DESKTOP-TERIMUV MINGW64 ~/OneDrive/Pasta .DEV/Workspace (master)		$ git config --global comando para mudar as configs		
+$ git config --global --unset user.name
+
+
+
+
+inv72@DESKTOP-TERIMUV MINGW64 ~/OneDrive/Pasta .DEV/Workspace (master)
+$ git config --global user.name "Yuri Nunes"
