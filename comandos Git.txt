@@ -1,0 +1,70 @@
+comandos basicos Git
+
+windows
+
+cd (para navegar para pastas especificas)
+dir (listar as pastas do diretorio)
+mkdir (criar pastas nos diretorios)
+del / rmdir (deletar arquivos de uma pastas) / rmdir pastaxyz /S /Q (deletar pasta completa)
+echo (criar arquivos ex. echo arquivo > arquivo.txt)
+openssl sha1 arquivo.txt 
+
+
+unix/linux
+
+echo (criar arquivos ex. echo arquivo > arquivo.txt)
+cd (para navegar para pastas especificas)
+ls (listar as pastas do diretorio)
+mkdir (criar pastas nos diretorios)
+del / rmdir (deletar arquivos de uma pastas) / rmdir pastaxyz /S /Q (deletar pasta completa)
+rm / -rf
+
+
+
+inv72@DESKTOP-TERIMUV MINGW64 ~
+$ ssh-keygen -t ed25519 -C inv72kmaster@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/inv72/.ssh/id_ed25519):
+Created directory '/c/Users/inv72/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/inv72/.ssh/id_ed25519
+Your public key has been saved in /c/Users/inv72/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:RTXDn/iajVHGQm9KaaTNKM5nUPSx4QzSnHJ0v7I6CWw inv72kmaster@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|        .==+B    |
+|        .o**+B   |
+|         +.B=*.. |
+|        o.o O O. |
+|       +So o.B.  |
+|        E o oo.  |
+|       . + ..*   |
+|          o.+ .  |
+|          ..     |
++----[SHA256]-----+
+
+
+
+
+inv72@DESKTOP-TERIMUV MINGW64 ~
+$ cd /c/Users/inv72/.ssh/
+
+inv72@DESKTOP-TERIMUV MINGW64 ~/.ssh
+$ ls
+id_ed25519  id_ed25519.pub
+
+inv72@DESKTOP-TERIMUV MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIqzOrvYtqBXHgOgVrM5Icl+l/ChR1+FWTmzi8YaF9jp inv72kmaster@gmail.com
+
+inv72@DESKTOP-TERIMUV MINGW64 ~/.ssh
+$
+
+git init
+
+git add
+
+git commit
+
